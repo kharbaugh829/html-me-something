@@ -1,0 +1,56 @@
+
+
+body {
+    max-width: 1280px;
+    background-image: url("images/art5-01.png");
+    background-size:cover;
+    }
+main {
+    padding: 20px;
+    }
+img {
+    width: 100%;
+    }
+header{
+    padding: 10px;
+}
+.signature{
+    width:50%;
+    
+
+}
+.profileImg{
+    width:25%;
+    padding: 10px;
+    border-radius: 55%;}
+    }
+
+
+.hockeyline{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+}
+.hockeyline img {
+    vertical-align: top;
+    width: 25%;
+   
+    
+  }
+/* #example span img
+{
+    width:33vw;
+}
+.example {
+    display: table;
+    width: 100%;
+  }
+  .example span {
+    display: table-cell;
+    width: auto;
+    padding: 5px;
+  }
+  .example span img {
+    vertical-align: top;
+    width: 100%;
+  } */
