@@ -1,56 +1,98 @@
 
 
 body {
-    max-width: 1280px;
+    max-width: 1980px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url("images/art5-01.png");
     background-size:cover;
-    }
+}
 main {
-    padding: 20px;
-    }
+    padding: 10%;
+}
 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    }
+    margin: 10px;
+}
 header{
-    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 .signature{
-    width:50%;
-    
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+    
 .profileImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width:25%;
     padding: 10px;
-    border-radius: 55%;}
-    }
+    border-radius: 55%;
+}
 
-
+p {
+    display:block;
+    margin: 10px;
+    
+}
+div {
+    display:block;
+    margin:10px;
+    float:none;
+    clear:both;
+}
 .hockeyline{
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap:row;
     width:100%;
 }
 .hockeyline img {
+    display:flex;
+    flex-direction: column;
     vertical-align: top;
-    width: 25%;
+    width: 33%;
    
     
   }
-/* #example span img
-{
-    width:33vw;
-}
-.example {
-    display: table;
-    width: 100%;
+  .row {
+    display:flex;
+    flex-wrap:row;
+    width:100%;
   }
-  .example span {
-    display: table-cell;
+  .row img {
+    display:flex;
+    flex-direction: column;
+    height: 350px;
     width: auto;
-    padding: 5px;
   }
-  .example span img {
-    vertical-align: top;
-    width: 100%;
+  .row p {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+     
+  }
+  /* .leftColumn {   
+    
+   
+    width: 25%;
+    float: left;
+  }
+
+  .rightColumn{
+    
+    float: right;
+    width: 75%;
+    
   } */
+
